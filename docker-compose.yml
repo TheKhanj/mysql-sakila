@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  mysql-sakila:
+    image: "restsql/mysql-sakila"
+    ports:
+      - "3309:3306"
